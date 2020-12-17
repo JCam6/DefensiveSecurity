@@ -1,6 +1,6 @@
 # Welcome 👋
 
-The purpose of this repository is to create a publicly accessible space to share code related to Defensive Cybersecurity.
+The purpose of this repository is to create a publicly accessible space to share open-source code related to Defensive Cybersecurity.
 
 **Objective of Defensive Cybersecurity**
 
