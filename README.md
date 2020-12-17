@@ -6,7 +6,7 @@ The purpose of this repository is to create a publicly accessible space to share
 
 The purpose of defensive cybersecurity is to engage in a progression of information technology activities with the desired outcomes of reducing vulnerabilities in computing infrastructure and strengthening protections against exploitation.  
 
-This will serve as a landing page for access to security and compliance automation code files.
+This will serve as a landing page for access to security and compliance code files.
 
 **Programming Languages and Tools Used**
 
