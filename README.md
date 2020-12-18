@@ -2,7 +2,7 @@
 
 This repository is a publicly accessible space to share open-source code related to Defensive Cybersecurity.
 
-**Objective of Defensive Cybersecurity**
+**Objective**
 
 The purpose of defensive cybersecurity is to engage in a progression of information technology activities with the desired outcomes of reducing vulnerabilities in computing infrastructure and strengthening protections against exploitation.  
 
