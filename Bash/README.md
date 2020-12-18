@@ -2,7 +2,7 @@
 
 **Open-Source Content**
 
-This Bash script is generated from an OpenSCAP profile without evaluation or warranty.
+These Bash scripts are generated from an OpenSCAP profile without evaluation or warranty.
 Please note, this attempts to fix every selected rule, even if the system is already compliant.
 
 Files released publicly at: https://github.com/ComplianceAsCode
