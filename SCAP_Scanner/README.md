@@ -15,8 +15,19 @@ Debian:~$ apt-get install scap-workbench
 Red_Hat:~$ yum install scap-workbench
 Fedora:~$ dnf install scap-workbench
 ```
-Download the SCAP Security Guides from this repo.
+Download the SCAP Security Guides.
 
 ```bash
-wget .... 
+apt-get install scap-security-guide
+wget <filelinkfromthisrepo>
+sudo cp <filefromthisrepo> /usr/share/xml/scap/ssg/content/
 ```
+Start SCAP Workbench
+
+Load content for the OS that will be scanned.
+
+Choose the profile to scan (i.e. level or security benchmark).
+
+Select Scan.
+
+View fail/pass results and suggested steps for remediation. 
