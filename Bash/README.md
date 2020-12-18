@@ -9,13 +9,19 @@ Files released publicly at: https://github.com/ComplianceAsCode
 
 **Usage Example**
 
+First, download the shell script file from this repo.
+
 ```bash
 wget https://raw.githubusercontent.com/JCam6/DefensiveSecurity/main/Bash/debian10-script-standard.sh
 ```
 
+Next, make the downloaded script an executable file.
+
 ```bash
 chmod +x debian10-script-standard.sh
 ```
+
+Finally, run the executable file and review the remediation results.
 
 ```bash
 sudo ./debian10-script-standard.sh
