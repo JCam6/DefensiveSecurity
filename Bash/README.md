@@ -1,4 +1,4 @@
-# Bash Security and Compliance Files <img title="Bash" alt="Bash" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png"/>
+# Bash Security and Compliance Automation <img title="Bash" alt="Bash" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png"/>
 
 **Open-Source Content**
 
