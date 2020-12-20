@@ -8,28 +8,28 @@ More information available publicly at: https://www.open-scap.org/tools/
 
 **Usage Example with SCAP Workbench**
 
-Download SCAP workbench from the package manager within your distribution of Linux.
+Step 1) Download SCAP workbench from the package manager within your distribution of Linux.
 
 ```bash
 Debian:~$ apt-get install scap-workbench
 Red_Hat:~$ yum install scap-workbench
 Fedora:~$ dnf install scap-workbench
 ```
-Download the SCAP Security Guides.
+Step 2) Download the SCAP Security Guides.
 
 ```bash
 apt-get install scap-security-guide
 wget <filelinkfromthisrepo>
 sudo cp <filefromthisrepo> /usr/share/xml/scap/ssg/content/
 ```
-Start SCAP Workbench and load content for the OS that will be scanned. :point_down:
+Step 3) Start SCAP Workbench and load content for the OS that will be scanned. :point_down:
 
 <img src="scap1.PNG" alt="load" class="inline"/>
 
-Choose the profile to scan (i.e. level or security benchmark) and select scan. Authenticate if required. :point_down:
+Step 4) Choose the profile to scan (i.e. level or security benchmark) and select scan. Authenticate if required. :point_down:
 
 <img src="scap2.PNG" alt="scan" class="inline"/>
 
-Close the diagnostic window and select show report. Review the compliance score and suggested steps for remediation. :point_down:
+Step 5) Close the diagnostic window and select show report. Review the compliance score and suggested steps for remediation. :point_down:
 
 <img src="scap3.PNG" alt="review" class="inline"/>
