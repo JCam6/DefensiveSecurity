@@ -22,7 +22,7 @@ apt-get install scap-security-guide
 wget <filelinkfromthisrepo>
 sudo cp <filefromthisrepo> /usr/share/xml/scap/ssg/content/
 ```
-Start SCAP Workbench
+Start SCAP Workbench.
 
 Load content for the OS that will be scanned.
 
