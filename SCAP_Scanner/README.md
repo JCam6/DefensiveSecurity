@@ -30,6 +30,6 @@ Choose the profile to scan (i.e. level or security benchmark) and select scan. A
 
 <img src="scap2.PNG" alt="scan" class="inline"/>
 
-Close the diagnostic windows and select show report. Review the compliance score and suggested steps for remediation. :point_down:
+Close the diagnostic window and select show report. Review the compliance score and suggested steps for remediation. :point_down:
 
 <img src="scap3.PNG" alt="review" class="inline"/>
