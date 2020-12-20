@@ -22,12 +22,14 @@ apt-get install scap-security-guide
 wget <filelinkfromthisrepo>
 sudo cp <filefromthisrepo> /usr/share/xml/scap/ssg/content/
 ```
-Start SCAP Workbench.
+Start SCAP Workbench and load content for the OS that will be scanned. :point_down:
 
-Load content for the OS that will be scanned.
+<img src="scap1.PNG" alt="load" class="inline"/>
 
-Choose the profile to scan (i.e. level or security benchmark).
+Choose the profile to scan (i.e. level or security benchmark) and select scan. Authenticate if required. :point_down:
 
-Select Scan.
+<img src="scap2.PNG" alt="scan" class="inline"/>
 
-View fail/pass results and suggested steps for remediation. 
+Close the diagnostic windows and select show report. Review the compliance score and suggested steps for remediation. :point_down:
+
+<img src="scap3.PNG" alt="review" class="inline"/>
