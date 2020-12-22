@@ -18,6 +18,7 @@ Fedora:~$ dnf install scap-workbench
 Step 2) Download the SCAP Security Guide.
 
 ```bash
+apt install ssg-debian
 wget <filelinkfromthisrepo>
 sudo cp <filefromthisrepo> /usr/share/xml/scap/ssg/content/
 ```
