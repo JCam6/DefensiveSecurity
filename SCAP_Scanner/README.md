@@ -15,16 +15,10 @@ Debian:~$ apt-get install scap-workbench
 Red_Hat:~$ yum install scap-workbench
 Fedora:~$ dnf install scap-workbench
 ```
-Step 2) Download the SCAP Security Guides according to the OS.
+Step 2) Download the raw SCAP Security Guide xml file from this repo for the OS.
 
 ```bash
-apt install ssg-debian
-apt install ssg-debderived
-apt install ssg-nondebian
-```
-
-```bash
-wget <filelinkfromthisrepo>
+wget <rawfilelinkfromthisrepo>
 ```
 Step 3) Start SCAP Workbench and load content for the OS that will be scanned. :point_down:
 
