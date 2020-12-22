@@ -19,9 +19,7 @@ Step 2) Download the SCAP Security Guide according to the OS.
 
 ```bash
 apt install ssg-debian
-or
 apt install ssg-debderived
-or
 apt install ssg-nondebian
 wget <filelinkfromthisrepo>
 sudo cp <filefromthisrepo> /usr/share/xml/scap/ssg/content/
