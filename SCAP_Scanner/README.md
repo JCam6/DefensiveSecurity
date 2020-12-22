@@ -20,7 +20,7 @@ Step 2) Download the raw SCAP Security Guide xml file from this repo for the OS.
 ```bash
 wget <rawfilelinkfromthisrepo>
 ```
-Step 3) Start SCAP Workbench and load content for the OS that will be scanned. :point_down:
+Step 3) Start SCAP Workbench in the command line with the downloaded guide.
 
 ```bash
 scap-workbench /path/to/file/downloaded/above
