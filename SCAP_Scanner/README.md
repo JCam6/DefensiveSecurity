@@ -15,10 +15,14 @@ Debian:~$ apt-get install scap-workbench
 Red_Hat:~$ yum install scap-workbench
 Fedora:~$ dnf install scap-workbench
 ```
-Step 2) Download the SCAP Security Guide.
+Step 2) Download the SCAP Security Guide according to the OS.
 
 ```bash
 apt install ssg-debian
+or
+apt install ssg-debderived
+or
+apt install ssg-nondebian
 wget <filelinkfromthisrepo>
 sudo cp <filefromthisrepo> /usr/share/xml/scap/ssg/content/
 ```
