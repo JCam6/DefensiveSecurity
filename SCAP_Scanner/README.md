@@ -18,12 +18,12 @@ Fedora:~$ dnf install scap-workbench
 Step 2) Download the raw SCAP Security Guide xml file from this repo for the OS.
 
 ```bash
-wget <rawfilelinkfromthisrepo>
+wget https://raw.githubusercontent.com/JCam6/DefensiveSecurity/main/SCAP_Scanner/ssg-debian10-ds-1.2.xml
 ```
 Step 3) Start SCAP Workbench from the command line with the downloaded guide.
 
 ```bash
-scap-workbench /path/to/file/downloaded/above
+scap-workbench ssg-debian10-ds-1.2.xml
 ```
 
 Step 4) Choose the profile to scan (i.e. level or security benchmark) and select scan. Authenticate if required. :point_down:
