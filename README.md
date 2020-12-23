@@ -2,6 +2,12 @@
 
 This repository is a publicly accessible space to share open-source code related to Defensive Cybersecurity.
 
+**Defensive Cybersecurity Articles**
+
+[Security & Compliance Scanning](https://github.com/JCam6/DefensiveSecurity/tree/main/SCAP_Scanner)
+
+[P2P Botnet Infects SSH Servers](https://github.com/JCam6/DefensiveSecurity/wiki/P2P-Botnet-Infects-SSH-Servers)
+
 **Objective**
 
 The purpose of defensive cybersecurity is to engage in a progression of information technology activities with the desired outcomes of reducing vulnerabilities in computing infrastructure and strengthening protections against exploitation.  
