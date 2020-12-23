@@ -26,10 +26,10 @@ Step 3) Start SCAP Workbench from the command line with the downloaded guide.
 scap-workbench ssg-debian10-ds-1.2.xml
 ```
 
-Step 4) Choose the profile to scan (i.e. level or security benchmark) and select scan. Authenticate if required. :point_down:
+Step 4) Choose the profile to scan (i.e. level or security benchmark) and select scan. Authenticate if required. 
 
-<img src="scap2.PNG" alt="scan" class="inline"/>
+<img src="scap2.PNG" alt="scan" width="600" height="700" class="inline"/>
 
-Step 5) Close the diagnostic window and select show report. Review the compliance score and suggested steps for remediation. :point_down:
+Step 5) Close the diagnostic window and select show report. Review the compliance score and suggested steps for remediation. 
 
-<img src="scap3.PNG" alt="review" class="inline"/>
+<img src="scap3.PNG" alt="review" width="600" height="700" class="inline"/>
