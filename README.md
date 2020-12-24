@@ -8,6 +8,8 @@ This repository is a publicly accessible space to share open-source code related
 
 [P2P Botnet Infects SSH Servers](https://github.com/JCam6/DefensiveSecurity/wiki/P2P-Botnet-Infects-SSH-Servers)
 
+[Linux Security Automation](https://github.com/JCam6/DefensiveSecurity/wiki/Linux-Security-Automation)
+
 **Objective**
 
 The purpose of defensive cybersecurity is to engage in a progression of information technology activities with the desired outcomes of reducing vulnerabilities in computing infrastructure and strengthening protections against exploitation.  
