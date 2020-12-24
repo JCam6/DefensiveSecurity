@@ -4,7 +4,7 @@ This repository is a publicly accessible space to share open-source code related
 
 **Defensive Cybersecurity Articles**
 
-[Security & Compliance Scanning](https://github.com/JCam6/DefensiveSecurity/tree/main/SCAP_Scanner)
+[Security & Compliance Scanning](https://github.com/JCam6/DefensiveSecurity/wiki/SCAP-Security-Scanning)
 
 [P2P Botnet Infects SSH Servers](https://github.com/JCam6/DefensiveSecurity/wiki/P2P-Botnet-Infects-SSH-Servers)
 
