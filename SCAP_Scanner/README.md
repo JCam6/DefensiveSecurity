@@ -20,7 +20,7 @@ Step 2) Download the raw SCAP Security Guide xml file from this repo for the OS.
 ```bash
 wget https://raw.githubusercontent.com/JCam6/DefensiveSecurity/main/SCAP_Scanner/ssg-debian10-ds-1.2.xml
 ```
-Step 3) Start SCAP Workbench from the command line with the downloaded guide.
+Step 3) Start SCAP Workbench from the command line with the guide downloaded in the previous step.
 
 ```bash
 scap-workbench ssg-debian10-ds-1.2.xml
