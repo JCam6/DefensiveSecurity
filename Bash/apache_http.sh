@@ -10,6 +10,7 @@ systemctl enable httpd.service
 systemctl start httpd.service
 firewall-cmd --permanent --add-service=http
 firewall-cmd --permanent --add-port=80/tcp
+cp /var/www/html/page.html index.html
 exit
 
 # open web browser at http://<machineIPaddress>/page.html
