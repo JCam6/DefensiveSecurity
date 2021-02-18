@@ -22,6 +22,6 @@ systemctl restart httpd.service
 
 
 # open web browser at http://<machineIPaddress>/page2.html
-# update web page script at /var/www/html/*.html
+# update web page scripts at /var/www/html/*.html
 # update config file at /etc/httpd/conf.d/site2.conf
 exit
