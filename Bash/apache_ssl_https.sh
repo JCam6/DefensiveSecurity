@@ -19,4 +19,9 @@ cp /var/www/html/page2.html /var/www/html/index.html
 cd /etc/httpd/conf.d/
 wget https://raw.githubusercontent.com/JCam6/DefensiveSecurity/main/Bash/site2.conf
 systemctl restart httpd.service
+
+
+# open web browser at http://<machineIPaddress>/page2.html
+# update web page script at /var/www/html/*.html
+# update config file at /etc/httpd/conf.d/site2.conf
 exit
