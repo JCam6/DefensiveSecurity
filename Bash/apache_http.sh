@@ -14,5 +14,5 @@ cp /var/www/html/page.html /var/www/html/index.html
 exit
 
 # open web browser at http://<machineIPaddress>/page.html
-# update web page script at /var/www/html/page.html
+# update web page scripts at /var/www/html/*.html
 # update config file at /etc/httpd/conf.d/site1.conf
