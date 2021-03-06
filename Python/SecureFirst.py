@@ -106,15 +106,18 @@ def main():
 
     # Update System.
     sys_update = input("\n>>> Update system? Type y or n, then hit enter:  ")
-    if package_mgr == "apt":
-        os.system("apt-get update -y")
-        os.system("apt-get upgrade -y")
-    elif package_mgr == "yum":
-        os.system("yum install update -y")
-        os.system("yum install upgrade -y")
+    if sys_update =="y":
+        if package_mgr == "apt":
+            os.system("apt-get update -y")
+            os.system("apt-get upgrade -y")
+        elif package_mgr == "yum":
+            os.system("yum install update -y")
+            os.system("yum install upgrade -y")
+        else:
+            print("\n>>> OK")
     else:
         print("\n>>> OK")
-
+    
     # Print footer for program.    
     print('\n', '*' * 10, 'Closing The Program', '*' * 10, '\n')
 
