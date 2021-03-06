@@ -74,7 +74,6 @@ def main():
 
     # Show services running.
     services_show = input("\n>>> Show all services? Type y or n, then hit enter:  ")
-    reminder = input("\n>>> Remember to hit q to exit service view, hit enter to proceed:  ")
     if services_show == "y":
         os.system("service --status-all | grep '\[ + \]'")
     else:
