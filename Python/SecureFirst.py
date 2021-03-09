@@ -23,8 +23,10 @@ def main():
             os.system("cp -r /etc/my.cnf /home/mysql")
             print("\n>>> backups saved to /home/mysql")
         elif svc_name == "docker":
-            os.system("cp -r /etc/docker /home/docker-frometc")
-            os.system("cp -r /var/lib/docker /home/docker-fromvar")
+            os.system("docker ps -a")
+            container_name = input("\n>>> Which container? ")
+            os.system("docker commit -p {} backup_docker".format(container_name))
+            os.system("docker save -o /home/backup_docker.tar backup_docker")
             print("\n>>> backups saved to /home/docker")
         else:
             print("\n>>> Unknown service.")
